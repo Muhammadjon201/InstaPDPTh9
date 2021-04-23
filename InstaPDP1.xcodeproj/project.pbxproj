@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		D417410C2631BF6300229C8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D417410B2631BF6300229C8D /* AppDelegate.swift */; };
 		D417410E2631BF6300229C8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D417410D2631BF6300229C8D /* SceneDelegate.swift */; };
-		D41741102631BF6300229C8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D417410F2631BF6300229C8D /* ViewController.swift */; };
 		D41741132631BF6300229C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D41741112631BF6300229C8D /* Main.storyboard */; };
 		D41741162631BF6300229C8D /* InstaPDP1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D41741142631BF6300229C8D /* InstaPDP1.xcdatamodeld */; };
 		D41741182631BF6600229C8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D41741172631BF6600229C8D /* Assets.xcassets */; };
 		D417411B2631BF6600229C8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D41741192631BF6600229C8D /* LaunchScreen.storyboard */; };
+		D41741282631BFBD00229C8D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41741262631BFBD00229C8D /* HomeViewController.swift */; };
+		D41741292631BFBD00229C8D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D41741272631BFBD00229C8D /* HomeViewController.xib */; };
+		D417412D2631BFD600229C8D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D417412B2631BFD600229C8D /* SignInViewController.swift */; };
+		D417412E2631BFD600229C8D /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D417412C2631BFD600229C8D /* SignInViewController.xib */; };
+		D41741322631BFEA00229C8D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41741302631BFEA00229C8D /* SignUpViewController.swift */; };
+		D41741332631BFEA00229C8D /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D41741312631BFEA00229C8D /* SignUpViewController.xib */; };
+		D4174136263302EC00229C8D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4174135263302EC00229C8D /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D41741082631BF6300229C8D /* InstaPDP1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaPDP1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D417410B2631BF6300229C8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D417410D2631BF6300229C8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D417410F2631BF6300229C8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D41741122631BF6300229C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D41741152631BF6300229C8D /* InstaPDP1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InstaPDP1.xcdatamodel; sourceTree = "<group>"; };
 		D41741172631BF6600229C8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D417411A2631BF6600229C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D417411C2631BF6600229C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D41741262631BFBD00229C8D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D41741272631BFBD00229C8D /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		D417412B2631BFD600229C8D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D417412C2631BFD600229C8D /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		D41741302631BFEA00229C8D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D41741312631BFEA00229C8D /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		D4174135263302EC00229C8D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +70,38 @@
 		D417410A2631BF6300229C8D /* InstaPDP1 */ = {
 			isa = PBXGroup;
 			children = (
+				D41741252631BF9E00229C8D /* controllers */,
+				D41741232631BF7000229C8D /* apputilis */,
 				D417410B2631BF6300229C8D /* AppDelegate.swift */,
 				D417410D2631BF6300229C8D /* SceneDelegate.swift */,
-				D417410F2631BF6300229C8D /* ViewController.swift */,
+				D417411C2631BF6600229C8D /* Info.plist */,
+			);
+			path = InstaPDP1;
+			sourceTree = "<group>";
+		};
+		D41741232631BF7000229C8D /* apputilis */ = {
+			isa = PBXGroup;
+			children = (
 				D41741112631BF6300229C8D /* Main.storyboard */,
 				D41741172631BF6600229C8D /* Assets.xcassets */,
 				D41741192631BF6600229C8D /* LaunchScreen.storyboard */,
-				D417411C2631BF6600229C8D /* Info.plist */,
 				D41741142631BF6300229C8D /* InstaPDP1.xcdatamodeld */,
 			);
-			path = InstaPDP1;
+			path = apputilis;
+			sourceTree = "<group>";
+		};
+		D41741252631BF9E00229C8D /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4174135263302EC00229C8D /* BaseViewController.swift */,
+				D41741262631BFBD00229C8D /* HomeViewController.swift */,
+				D41741272631BFBD00229C8D /* HomeViewController.xib */,
+				D417412B2631BFD600229C8D /* SignInViewController.swift */,
+				D417412C2631BFD600229C8D /* SignInViewController.xib */,
+				D41741302631BFEA00229C8D /* SignUpViewController.swift */,
+				D41741312631BFEA00229C8D /* SignUpViewController.xib */,
+			);
+			path = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,9 +161,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D417412E2631BFD600229C8D /* SignInViewController.xib in Resources */,
 				D417411B2631BF6600229C8D /* LaunchScreen.storyboard in Resources */,
 				D41741182631BF6600229C8D /* Assets.xcassets in Resources */,
 				D41741132631BF6300229C8D /* Main.storyboard in Resources */,
+				D41741332631BFEA00229C8D /* SignUpViewController.xib in Resources */,
+				D41741292631BFBD00229C8D /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,10 +177,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D41741102631BF6300229C8D /* ViewController.swift in Sources */,
+				D41741322631BFEA00229C8D /* SignUpViewController.swift in Sources */,
 				D417410C2631BF6300229C8D /* AppDelegate.swift in Sources */,
 				D41741162631BF6300229C8D /* InstaPDP1.xcdatamodeld in Sources */,
 				D417410E2631BF6300229C8D /* SceneDelegate.swift in Sources */,
+				D417412D2631BFD600229C8D /* SignInViewController.swift in Sources */,
+				D4174136263302EC00229C8D /* BaseViewController.swift in Sources */,
+				D41741282631BFBD00229C8D /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
