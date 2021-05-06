@@ -21,8 +21,8 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pCp-kq-hPv">
                     <rect key="frame" x="0.0" y="802" width="414" height="60"/>
                     <subviews>
-                        <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="0Us-3x-hDh">
-                            <rect key="frame" x="46" y="20" width="276" height="33"/>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="0Us-3x-hDh">
+                            <rect key="frame" x="69" y="13.5" width="276" height="33"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Already have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ETd-5y-gph">
                                     <rect key="frame" x="0.0" y="0.0" width="195" height="33"/>
@@ -48,6 +48,8 @@
                         <constraint firstItem="0Us-3x-hDh" firstAttribute="centerX" secondItem="pCp-kq-hPv" secondAttribute="centerX" id="6Ii-Xp-QuN"/>
                         <constraint firstItem="0Us-3x-hDh" firstAttribute="centerY" secondItem="pCp-kq-hPv" secondAttribute="centerY" id="8FP-Qc-JBk"/>
                         <constraint firstAttribute="height" constant="60" id="MoK-dg-WrW"/>
+                        <constraint firstItem="0Us-3x-hDh" firstAttribute="centerY" secondItem="pCp-kq-hPv" secondAttribute="centerY" id="qpE-EZ-UQw"/>
+                        <constraint firstItem="0Us-3x-hDh" firstAttribute="centerX" secondItem="pCp-kq-hPv" secondAttribute="centerX" id="vNH-9h-Lkp"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Zd-iU-sQe">
@@ -140,6 +142,7 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="0Zd-iU-sQe" secondAttribute="trailing" id="Cb0-Rl-a6l"/>
                 <constraint firstItem="pCp-kq-hPv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="DNj-f6-A3m"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="pCp-kq-hPv" secondAttribute="bottom" id="Ddy-5F-yle"/>
+                <constraint firstItem="0Us-3x-hDh" firstAttribute="centerX" secondItem="Dl8-Yh-HEg" secondAttribute="centerX" id="KG5-Dg-fgW"/>
                 <constraint firstItem="Dl8-Yh-HEg" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="L2a-CD-vV8"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pCp-kq-hPv" secondAttribute="trailing" id="PsD-3t-BBO"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Dl8-Yh-HEg" secondAttribute="trailing" id="Qra-oS-uC4"/>
